@@ -1,0 +1,21 @@
+{
+  "name": "Inventory",
+  "version": "0.0.1",
+  "description": "A MathHub Inventory Server",
+  "main": "src/index.ts",
+  "repository": "https://github.com/MathHubInfo/Inventory",
+  "author": "The KWARC Group <group@kwarc.info>",
+  "license": "AGPL-3.0",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@types/gitlab": "^2.0.0",
+    "@types/node": "^10.12.10",
+    "gitlab": "^4.2.2",
+    "typescript": "^3.1.6"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.1"
+  }
+}
